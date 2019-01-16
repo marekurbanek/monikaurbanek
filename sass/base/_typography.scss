@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-defaultBlack;
+}
+
+.h1--big {
+  font-family: 'Crete Round', serif;
+  font-size: 3vw;
+  line-height: 6.3rem;
+  font-weight: 300;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 8vw;
+  }
+}
+
+.h2--info {
+  font-size: 2vw;
+  font-weight: 300;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 4vw;
+  }
+}
